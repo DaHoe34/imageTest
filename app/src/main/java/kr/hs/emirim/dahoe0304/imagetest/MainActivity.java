@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(new MyImage(getApplicationContext()));
     }
-    class MyImage extends View {
+   /* class MyImage extends View {
         MyImage(Context context) {
             super(context);    //view를 상속받음
         }
@@ -33,5 +33,5 @@ public class MainActivity extends AppCompatActivity {
             canvas.skew(0.4f,0.4f);  //이미지비틀기
             canvas.drawBitmap(picture, x, y, null);
         }
-    }
+    }*/
 }
